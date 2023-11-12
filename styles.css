@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Kaushan+Script&display=swap');
+body{
+margin: 0%;
+color: #0f0f0f;
+font-style: 16px;
+font-weight: normal;
+font-family: 'IBM Plex Mono', monospace;
+}
+/*  интро фон*/
+.intro {
+    width: 100%;
+    height: 100vh;
+    background: url("intro.jpg") center
+    no-repeat;
+    background-size: cover; ;
+
+}
+    a{
+    color: #0f0f0f;
+    text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+
+/* аватарка */
+.Anna {
+    width: 300px;
+    border-radius: 15px;
+    box-shadow:4px 4px 14px rgba(0, 0, 0, 0.85) ;
+}
+
+
+/* информация обо мне */
+.info p {
+    color: rgb(41, 9, 97);
+    font-weight: 900;
+    margin: 0;
+}
+
+/* box model */
+.container {
+  max-width: 750px ;  
+  margin:auto ;
+}
+ 
+/* соц сети */
+/* .social {
+    background:rgba(57, 114, 247, 0.35);
+    padding: 15px;
+    margin:  5px;
+   
+} */
+.hobby{
+ background: rgba(31, 147, 215, 0.15);
+
+}
+.lab{
+ background: rgba(22, 235, 217, 0.15);
+
+}
+.card {
+    padding: 15px 20px;
+ /* background: rgba(31, 147, 215, 0.15); */
+ margin-bottom: 20px;
+ border-radius: 20px;
+
+}
