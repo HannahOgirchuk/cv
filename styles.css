@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Kaushan+Script&display=swap');
 body{
-margin: 0%;
+/* margin: 0%; */
 color: #0f0f0f;
 font-style: 16px;
 font-weight: normal;
 font-family: 'IBM Plex Mono', monospace;
 }
+
 /*  интро фон*/
 .intro {
     width: 100%;
@@ -15,6 +16,8 @@ font-family: 'IBM Plex Mono', monospace;
     background-size: cover; ;
 
 }
+
+
     a{
     color: #0f0f0f;
     text-decoration: none;
@@ -29,13 +32,27 @@ font-family: 'IBM Plex Mono', monospace;
 .Anna {
     width: 300px;
     border-radius: 15px;
-    box-shadow:4px 4px 14px rgba(0, 0, 0, 0.85) ;
+    box-shadow:4px 4px 14px rgba(0, 0, 0, 0.95) ;
+    
 }
+.info {
+    display: flex;
+    margin-bottom: 20px;
+}
+.info-text {
+    margin-left: 40px;
+}
+.info-text h4 {
+    margin-bottom: 10px;
+    font-weight: 600;
+    color: rgb(36, 3, 134)
+}
+
 
 
 /* информация обо мне */
 .info p {
-    color: rgb(41, 9, 97);
+    color: rgb(0, 0, 0);
     font-weight: 900;
     margin: 0;
 }
@@ -44,6 +61,7 @@ font-family: 'IBM Plex Mono', monospace;
 .container {
   max-width: 750px ;  
   margin:auto ;
+  padding-top: 10px;
 }
  
 /* соц сети */
@@ -68,3 +86,20 @@ font-family: 'IBM Plex Mono', monospace;
  border-radius: 20px;
 
 }
+.card h2{
+    margin-bottom: 10px;
+}
+.list li {
+    color: rgb(4, 4, 98);
+
+}
+ .content {
+    transition: 0.3 ease-in-out;
+    max-height: 0;
+    overflow: hidden;
+    padding: 20px;
+    height: 700px;
+    width: 700px;
+     max-width: 750px
+     
+ }
